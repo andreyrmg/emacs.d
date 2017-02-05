@@ -28,6 +28,7 @@
  '(menu-bar-mode nil)
  '(ring-bell-function (quote ignore))
  '(scroll-bar-mode nil)
+ '(shift-select-mode nil)
  '(split-width-threshold 157)
  '(tool-bar-mode nil))
 (custom-set-faces
