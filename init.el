@@ -1,3 +1,5 @@
+(package-initialize)
+
 (when (eq system-type 'darwin)
   (setq mac-option-modifier 'alt
 	mac-command-modifier 'meta))
