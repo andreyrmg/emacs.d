@@ -5,6 +5,8 @@
 (push "~/.emacs.d/themes" load-path)
 (push "~/.emacs.d/themes" custom-theme-load-path)
 
+(set-face-attribute 'default nil :height 135)
+
 (global-set-key (kbd "M-o") 'other-window)
 
 (custom-set-variables
@@ -26,6 +28,7 @@
  '(menu-bar-mode nil)
  '(ring-bell-function (quote ignore))
  '(scroll-bar-mode nil)
+ '(split-width-threshold 157)
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
