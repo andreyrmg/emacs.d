@@ -23,6 +23,7 @@
  '(ido-enable-flex-matching t)
  '(ido-enable-last-directory-history nil)
  '(ido-mode (quote both) nil (ido))
+ '(indent-tabs-mode nil)
  '(inhibit-startup-echo-area-message "andrey")
  '(inhibit-startup-screen t)
  '(initial-buffer-choice t)
