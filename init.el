@@ -15,6 +15,7 @@
 (global-set-key (kbd "M-o") 'other-window)
 (global-set-key (kbd "C-c C-c C-b") 'compile)
 (global-set-key (kbd "C-c C-c C-r") 'recompile)
+(global-set-key (kbd "C-x g") 'magit-status)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -38,7 +39,7 @@
  '(initial-buffer-choice t)
  '(make-backup-files nil)
  '(menu-bar-mode nil)
- '(package-selected-packages (quote (markdown-mode yaml-mode)))
+ '(package-selected-packages (quote (magit markdown-mode yaml-mode)))
  '(ring-bell-function (quote ignore))
  '(scroll-bar-mode nil)
  '(shift-select-mode nil)
