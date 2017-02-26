@@ -13,8 +13,8 @@
 (set-face-attribute 'default nil :height 135)
 
 (global-set-key (kbd "M-o") 'other-window)
-(global-set-key (kbd "C-c C-c C-b") 'compile)
-(global-set-key (kbd "C-c C-c C-r") 'recompile)
+(global-set-key (kbd "C-c b") 'compile)
+(global-set-key (kbd "C-c c") 'recompile)
 (global-set-key (kbd "C-x g") 'magit-status)
 
 (custom-set-variables
@@ -24,7 +24,7 @@
  ;; If there is more than one, they won't work right.
  '(compilation-always-kill t)
  '(compilation-ask-about-save nil)
- '(compilation-auto-jump-to-first-error t)
+ '(compilation-auto-jump-to-first-error nil)
  '(compilation-context-lines 3)
  '(custom-enabled-themes (quote (tomorrow-night)))
  '(custom-safe-themes
