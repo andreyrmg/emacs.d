@@ -41,6 +41,7 @@
  '(make-backup-files nil)
  '(menu-bar-mode nil)
  '(package-selected-packages (quote (magit rust-mode markdown-mode yaml-mode)))
+ '(python-shell-interpreter "python3")
  '(ring-bell-function (quote ignore))
  '(rust-format-on-save t)
  '(scroll-bar-mode nil)
