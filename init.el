@@ -5,7 +5,7 @@
 
 (when (eq system-type 'darwin)
   (setq mac-option-modifier 'alt
-	mac-command-modifier 'meta))
+        mac-command-modifier 'meta))
 
 (push "~/.emacs.d/themes" load-path)
 (push "~/.emacs.d/themes" custom-theme-load-path)
