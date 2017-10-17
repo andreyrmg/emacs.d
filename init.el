@@ -46,7 +46,9 @@
  '(initial-buffer-choice t)
  '(make-backup-files nil)
  '(menu-bar-mode nil)
- '(package-selected-packages (quote (sml-mode magit rust-mode markdown-mode yaml-mode)))
+ '(package-selected-packages
+   (quote
+    (parinfer use-package sml-mode magit rust-mode markdown-mode yaml-mode)))
  '(python-shell-interpreter "python3")
  '(ring-bell-function (quote ignore))
  '(rust-format-on-save t)
@@ -55,9 +57,19 @@
  '(sml-indent-level 2)
  '(split-width-threshold 140)
  '(tool-bar-mode nil))
-(custom-set-faces
+(custom-set-faces)
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ 
+(use-package parinfer
+  :ensure t
+  :bind ("C-," . parinfer-toggle-mode)
+  :init
+  (setq parinfer-extensions '(defaults
+                              pretty-parens
+                              smart-tab
+                              smart-yank)) 
+  (add-hook 'emacs-lisp-mode-hook #'parinfer-mode)
+  (add-hook 'clojure-mode-hook #'parinfer-mode))
