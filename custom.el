@@ -38,7 +38,7 @@
  '(shift-select-mode nil)
  '(sml-indent-level 2)
  '(split-width-threshold 140)
- '(tool-bar-mode t))
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
