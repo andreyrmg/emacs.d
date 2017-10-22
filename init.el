@@ -17,8 +17,7 @@
              '(font . "Monaco-13"))
 
 (global-set-key (kbd "M-o") 'other-window)
-(global-set-key (kbd "C-c b") 'compile)
-(global-set-key (kbd "C-c c") 'recompile)
+(global-set-key (kbd "M-RET") 'compile)
 (global-set-key (kbd "C-x g") 'magit-status)
  
 (use-package parinfer
