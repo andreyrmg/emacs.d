@@ -5,16 +5,15 @@
 
 (when (eq system-type 'darwin)
   (setq mac-option-modifier 'alt
-        mac-command-modifier 'meta))
+        mac-command-modifier 'meta)
+  (add-to-list 'default-frame-alist
+               '(font . "Monaco-13")))
 
 (push "~/.emacs.d/themes" load-path)
 (push "~/.emacs.d/themes" custom-theme-load-path)
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
-
-(add-to-list 'default-frame-alist
-             '(font . "Monaco-13"))
 
 (global-set-key (kbd "M-o") 'other-window)
 (global-set-key (kbd "M-RET") 'compile)
