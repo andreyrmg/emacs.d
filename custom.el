@@ -34,6 +34,7 @@
  '(python-shell-interpreter "python3")
  '(ring-bell-function (quote ignore))
  '(rust-format-on-save t)
+ '(savehist-mode t)
  '(scroll-bar-mode nil)
  '(shift-select-mode nil)
  '(sml-indent-level 2)
