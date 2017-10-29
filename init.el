@@ -1,6 +1,6 @@
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "https://stable.melpa.org/packages/"))
+             '("melpa" . "http://stable.melpa.org/packages/"))
 (package-initialize)
 
 (when (eq system-type 'darwin)
