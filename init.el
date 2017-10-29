@@ -9,6 +9,10 @@
   (add-to-list 'default-frame-alist
                '(font . "Monaco-13")))
 
+(when (eq system-type 'windows-nt)
+  (add-to-list 'default-frame-alist
+               '(font . "Liberation Mono-10")))
+
 (push "~/.emacs.d/themes" load-path)
 (push "~/.emacs.d/themes" custom-theme-load-path)
 
