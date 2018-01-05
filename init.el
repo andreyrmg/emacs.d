@@ -20,6 +20,7 @@
 (load custom-file)
 
 (global-set-key (kbd "M-o") 'other-window)
+(global-set-key (kbd "M-O") 'ido-switch-buffer-other-window)
 (global-set-key (kbd "M-RET") 'compile)
 (global-set-key (kbd "C-x g") 'magit-status)
  
