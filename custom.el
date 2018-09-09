@@ -19,6 +19,8 @@
  '(custom-safe-themes
    (quote
     ("1157a4055504672be1df1232bed784ba575c60ab44d8e6c7b3800ae76b42f8bd" default)))
+ '(haskell-process-auto-import-loaded-modules t)
+ '(haskell-process-suggest-remove-import-lines t)
  '(ido-enable-flex-matching t)
  '(ido-enable-last-directory-history nil)
  '(ido-mode (quote both) nil (ido))
