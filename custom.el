@@ -30,7 +30,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (parinfer use-package sml-mode magit rust-mode markdown-mode yaml-mode)))
+    (haskell-mode parinfer use-package sml-mode magit rust-mode markdown-mode yaml-mode)))
  '(python-shell-interpreter "python3")
  '(ring-bell-function (quote ignore))
  '(rust-format-on-save t)
