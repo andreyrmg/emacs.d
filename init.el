@@ -7,7 +7,7 @@
   (setq mac-option-modifier 'alt
         mac-command-modifier 'meta)
   (add-to-list 'default-frame-alist
-               '(font . "Monaco-13")))
+               '(font . "Iosevka-14")))
 
 (when (eq system-type 'windows-nt)
   (add-to-list 'default-frame-alist
