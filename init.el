@@ -34,3 +34,7 @@
                               smart-yank)) 
   (add-hook 'emacs-lisp-mode-hook #'parinfer-mode)
   (add-hook 'clojure-mode-hook #'parinfer-mode))
+
+(use-package haskell-mode
+  :bind (:map haskell-mode-map
+         ("C-c C-l" . haskell-process-load-file)))
