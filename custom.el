@@ -38,6 +38,7 @@
  '(rust-format-on-save t)
  '(savehist-mode t)
  '(scroll-bar-mode nil)
+ '(sh-basic-offset 2)
  '(shift-select-mode nil)
  '(sml-indent-level 2)
  '(split-width-threshold 140)
