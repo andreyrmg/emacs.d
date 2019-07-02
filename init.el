@@ -23,6 +23,13 @@
 (global-set-key (kbd "M-O") 'ido-switch-buffer-other-window)
 (global-set-key (kbd "M-RET") 'compile)
 (global-set-key (kbd "C-x g") 'magit-status)
+
+(use-package base16-theme
+  :ensure t
+  :init
+  (setq base16-theme-256-color-source "base16-shell")
+  :config
+  (load-theme 'base16-gruvbox-dark-hard t))
  
 (use-package parinfer
   :ensure t
