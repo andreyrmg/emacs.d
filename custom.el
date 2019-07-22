@@ -32,7 +32,7 @@
  '(menu-bar-mode nil)
  '(package-selected-packages
    (quote
-    (base16-theme haskell-mode parinfer use-package sml-mode magit rust-mode markdown-mode yaml-mode)))
+    (flycheck base16-theme haskell-mode parinfer use-package sml-mode magit rust-mode markdown-mode yaml-mode)))
  '(python-shell-interpreter "python3")
  '(ring-bell-function (quote ignore))
  '(rust-format-on-save t)

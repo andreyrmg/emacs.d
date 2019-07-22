@@ -40,3 +40,9 @@
 (use-package haskell-mode
   :bind (:map haskell-mode-map
          ("C-c C-l" . haskell-process-load-file)))
+
+(use-package flycheck
+  :ensure t
+  :init
+  (global-flycheck-mode)
+  (setq-default flycheck-disabled-checkers '(emacs-lisp-checkdoc)))
