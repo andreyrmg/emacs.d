@@ -33,7 +33,7 @@
   (setq parinfer-extensions '(defaults
                               pretty-parens
                               smart-tab
-                              smart-yank)) 
+                              smart-yank))
   (add-hook 'emacs-lisp-mode-hook #'parinfer-mode)
   (add-hook 'clojure-mode-hook #'parinfer-mode))
 
