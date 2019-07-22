@@ -3,15 +3,10 @@
              '("melpa" . "http://stable.melpa.org/packages/"))
 (package-initialize)
 
+(set-frame-font "Iosevka Medium-12" nil t)
 (when (eq system-type 'darwin)
   (setq mac-option-modifier 'alt
-        mac-command-modifier 'meta)
-  (add-to-list 'default-frame-alist
-               '(font . "Iosevka-14")))
-
-(when (eq system-type 'windows-nt)
-  (add-to-list 'default-frame-alist
-               '(font . "Liberation Mono-10")))
+        mac-command-modifier 'meta))
 
 (push "~/.emacs.d/themes" load-path)
 (push "~/.emacs.d/themes" custom-theme-load-path)
