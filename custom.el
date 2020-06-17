@@ -36,6 +36,7 @@
  '(python-shell-interpreter "python3")
  '(ring-bell-function (quote ignore))
  '(rust-format-on-save t)
+ '(rust-rustfmt-bin "~/.cargo/bin/rustfmt")
  '(savehist-mode t)
  '(scroll-bar-mode nil)
  '(sh-basic-offset 2)
